@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 41,
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 41
+    },
+    "description": "Testing for dead marshes datapack"
+  },
+  "features": {
+    "enabled": []
+  }
+}

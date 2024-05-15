@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "minecraft:petrified_oak_slab",
+            "speed": 36,
+            "correct_for_drops": true
+          }
+        ]
+      }
+    }
+  }
+}
