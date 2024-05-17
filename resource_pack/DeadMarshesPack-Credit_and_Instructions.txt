@@ -1,0 +1,11 @@
+== INTRO ==
+> This resource pack is an amalgamation of EpicQuestz's main resource pack, EpicQuestz's Eriador add-on, and a few additional textures created specifically for EQ's Dead Marshes map
+> Latest Minecraft version compatible: MC v1.20.6
+
+== CREDIT AND ATTRIBUTION ==
+> Some of these textures are based off those from the texture pack "Jolicraft".
+> These can be found under: http://www.minecraftforum.net/topic/163244-16x-jolicraft-16-horses-horses-horses/
+> We have also used some (altered) textures from the Minecraft Middle-Earth packs, find them on http://www.mcmiddleearth.com/. These have been used with full permission from MCME as of 2011.
+
+== OTHER ==
+> Although this pack has the same route, the EpicQuestz pack is *no longer* the same as our sister server (Empire War)'s pack. See www.empirewar.org.
