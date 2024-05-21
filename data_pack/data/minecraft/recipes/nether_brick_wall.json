@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_wood"
+    }
+  },
+  "result": {
+    "id": "minecraft:nether_brick_wall",
+    "count": 6
+  }
+}

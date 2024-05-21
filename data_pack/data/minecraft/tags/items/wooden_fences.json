@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_brick_fence",
+    "minecraft:nether_brick_wall"
+  ]
+}

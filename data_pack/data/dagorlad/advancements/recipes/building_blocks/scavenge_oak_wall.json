@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_wall"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dagorlad:scavenge_oak_wall"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dagorlad:scavenge_oak_wall"
+    ]
+  }
+}
+

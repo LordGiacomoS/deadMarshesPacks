@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_fence"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dagorlad:scavenge_oak_fence"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dagorlad:scavenge_oak_fence"
+    ]
+  }
+}
+

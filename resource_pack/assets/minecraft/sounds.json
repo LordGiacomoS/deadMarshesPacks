@@ -1,0 +1,140 @@
+{
+  "block.nether_bricks.break": {
+    "replace": true,
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.nether_bricks.fall": {
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ]
+  },
+  "block.nether_bricks.hit": {
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.nether_bricks.place": {
+    "replace": true,
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.nether_bricks.step": {
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.stray.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/say1",
+      "mob/zombie/say2",
+      "mob/zombie/say3"
+    ],
+    "subtitle": "subtitles.entity.stray.ambient"
+  },
+  "entity.stray.step": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/step1",
+      "mob/zombie/step2",
+      "mob/zombie/step3",
+      "mob/zombie/step4",
+      "mob/zombie/step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.stray.hurt": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/hurt1",
+      "mob/zombie/hurt2"
+    ],
+    "subtitle": "subtitles.entity.stray.hurt"
+  },
+  "entity.stray.death": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/death"
+    ],
+    "subtitle": "subtitles.entity.stray.death"
+  },
+  "entity.drowned.ambient": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/say1",
+      "mob/zombie/say2",
+      "mob/zombie/say3"
+    ],
+    "subtitle": "subtitles.entity.drowned.ambient"
+  },
+  "entity.drowned.ambient_water": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/say1",
+      "mob/zombie/say2",
+      "mob/zombie/say3"
+    ],
+    "subtitle": "subtitles.entity.drowned.ambient_water"
+  },
+  "entity.drowned.hurt": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/hurt1",
+      "mob/zombie/hurt2"
+    ],
+    "subtitle": "subtitles.entity.drowned.hurt"
+  },
+  "entity.drowned.hurt_water": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/hurt1",
+      "mob/zombie/hurt2"
+    ],
+    "subtitle": "subtitles.entity.drowned.hurt"
+  },
+  "entity.drowned.death": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/death"
+    ],
+    "subtitle": "subtitles.entity.drowned.death"
+  },
+  "entity.drowned.death_water": {
+    "replace": true,
+    "sounds": [
+      "mob/zombie/death"
+    ],
+    "subtitle": "subtitles.entity.drowned.death"
+  }
+}
