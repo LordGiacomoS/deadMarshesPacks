@@ -1,6 +1,6 @@
 ## To-Do
 
-- [X] Make sure resource pack is compatible with 1.20.6
+- [X] Make sure resource pack is compatible with ~1.20.6~ 1.21-pre1 (no longer compatible with 1.20.6 due to folder name changes)
 - [X] Set up biome datapack for mob spawning
 - [X] Replace drowned textures in resource pack because orcs (zombies) might convert to drowned and need to be consistent
 - [ ] Replace zombie, drowned, and stray sounds with orc sounds?
