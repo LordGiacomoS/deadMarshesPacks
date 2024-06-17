@@ -3,9 +3,9 @@
     "pack_format": 32,
     "supported_formats": {
       "min_inclusive": 22,
-      "max_inclusive": 33
+      "max_inclusive": 34
     },
-    "description": "EpicQuestz's Dead Marshes Resource Pack (v1.0.0)"
+    "description": "EpicQuestz's Dead Marshes Resource Pack (v1.0.1)"
   },
   "language": {
     "en_eq": {

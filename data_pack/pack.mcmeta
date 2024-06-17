@@ -3,7 +3,7 @@
     "pack_format": 46,
     "supported_formats": {
       "min_inclusive": 45,
-      "max_inclusive": 46
+      "max_inclusive": 48
     },
     "description": "Datapack for EpicQuestz's Dead Marshes map (v1.0.1)"
   },
