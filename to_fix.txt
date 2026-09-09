@@ -10,9 +10,9 @@ to fix:
     - spawnable mobs control:
         - MC v26.3 handles changing biomes differently than previously
     - [X] pickaxe mining issues
-        - certain tags changed (e.g. more blocks added, chain tag refactored)
+        - certain tags changed (e.g. more blocks added, 1.21.9 deprecated names ['minecraft:iron_bars', 'minecraft:chain', 'minecraft:lantern', 'minecraft:soul_lantern', 'minecraft:lightning_rod'])
     
-    - [ ] add copper shovel to shovel recipes
+    - [ ] add copper shovel to shovel recipes for 1.21.9+
     
     - [ ] smithing table changes in 1.21.5
         - netherite shovel
@@ -28,6 +28,8 @@ to fix:
   - eq pack issues:
     - top slab of 'dirt' slab is still petrified oak
   
+limitations
+
 
 double-check:
   - examine game logs when loading packs for other issues
