@@ -26,12 +26,13 @@ to fix:
       - [X] log fence/wall/stair/slab conversion to planks
     
   - eq pack issues:
-    - top slab of 'dirt' slab is still petrified oak
-  
-limitations
+    - [X] top slab of 'dirt' slab is still petrified oak
+    - [ ] bring up to date with current on github
+
 
 
 double-check:
+
   - examine game logs when loading packs for other issues
   - figure out way to keep .DS_Store files from being tossed in
 
@@ -42,5 +43,7 @@ double-check:
         - I spot checked the version of map on eq projects, and there didn't appear to be any biome deviation; possible that it's different in actual world, I missed some deviations, or something else entirely like dimensions playing havoc??
     
   - data pack updates:
+    - shovel merge repair doesn't preserve components
+  
     - any changes giving ability to control attributes of zombie iron shovel drop
     - how much performance impact would there be by implementing ray-casts be in modern versions?

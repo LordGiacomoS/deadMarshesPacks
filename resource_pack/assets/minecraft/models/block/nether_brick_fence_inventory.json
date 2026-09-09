@@ -1,7 +1,7 @@
 {
-    "parent": "block/fence_inventory",
+    "parent": "minecraft:block/fence_inventory",
     "textures": {
-        "texture": "block/oak_log",
-        "post": "block/oak_log"
+        "texture": "minecraft:block/oak_log",
+        "post": "minecraft:block/oak_log"
     }
 }
