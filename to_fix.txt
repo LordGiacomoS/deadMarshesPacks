@@ -6,7 +6,7 @@ to fix:
   - version changes (probably):
     - music in biomes:
       - pre-1.21.4, 1.21.4 to 1.21.10, and 1.21.11+ all act differently
-      - currently using 1.21.4 implementation
+      - currently using 1.21.11 implementation
     - spawnable mobs control:
         - MC v26.3 handles changing biomes differently than previously
     - [X] pickaxe mining issues
