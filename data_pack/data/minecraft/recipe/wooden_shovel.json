@@ -1,29 +1,34 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:wooden_tool_materials"
+  },
   "pattern": [
     "X",
     "#",
     "#"
   ],
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "tag": "minecraft:stone_tool_materials"
-    }
-  },
   "result": {
-    "id": "minecraft:stone_shovel",
     "count": 1,
+    "id": "minecraft:wooden_shovel",
     "components": {
       "minecraft:tool": {
         "rules": [
           {
             "blocks": "minecraft:petrified_oak_slab",
-            "speed": 16,
+            "speed": 8,
             "correct_for_drops": true
+          },
+          {
+              "blocks": "#minecraft:incorrect_for_wooden_tool",
+              "correct_for_drops": false
+          },
+          {
+              "speed": 2,
+              "blocks": "#minecraft:mineable/shovel",
+              "correct_for_drops": true
           }
         ]
       }

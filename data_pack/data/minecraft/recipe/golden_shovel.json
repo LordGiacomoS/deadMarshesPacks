@@ -1,22 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:gold_tool_materials"
+  },
   "pattern": [
     "X",
     "#",
     "#"
   ],
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:gold_ingot"
-    }
-  },
   "result": {
-    "id": "minecraft:golden_shovel",
     "count": 1,
+    "id": "minecraft:golden_shovel",
     "components": {
       "minecraft:tool": {
         "rules": [
@@ -24,6 +20,15 @@
             "blocks": "minecraft:petrified_oak_slab",
             "speed": 48,
             "correct_for_drops": true
+          },
+          {
+              "blocks": "#minecraft:incorrect_for_golden_tool",
+              "correct_for_drops": false
+          },
+          {
+              "speed": 12,
+              "blocks": "#minecraft:mineable/shovel",
+              "correct_for_drops": true
           }
         ]
       }

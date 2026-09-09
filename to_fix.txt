@@ -1,10 +1,7 @@
 to fix:
   - my own idiocy (probably):
-    - shovel recipes
-    
-    - dirt slab recipe
-    - log fence/wall/stair/slab crafting recipes
-    - log fence/wall/stair/slab conversion to planks
+    - [X] wooden shovel recipe giving stone shovel
+    - [X] custom shovels not breaking shovel-breakable blocks at right speed
     
   - version changes (probably):
     - music in biomes:
@@ -12,9 +9,22 @@ to fix:
       - currently using 1.21.4 implementation
     - spawnable mobs control:
         - MC v26.3 handles changing biomes differently than previously
-    - pickaxe mining issues
+    - [X] pickaxe mining issues
         - certain tags changed (e.g. more blocks added, chain tag refactored)
-        
+    
+    - [ ] add copper shovel to shovel recipes
+    
+    - [ ] smithing table changes in 1.21.5
+        - netherite shovel
+    
+    - [X] recipe spec changes in 1.21.2
+      - [X] shovel recipes
+      
+      - [X] dirt slab recipe
+        - [ ] make sure it unlocks upon obtaining dirt
+      - [X] log fence/wall/stair/slab crafting recipes
+      - [X] log fence/wall/stair/slab conversion to planks
+    
   - eq pack issues:
     - top slab of 'dirt' slab is still petrified oak
   
@@ -26,8 +36,8 @@ double-check:
   - map concerns:
     - chests on marshes map for any items that might need components altered
     - spawn control issues Limee observed
-        - Limee tested on 1.21.11; so datapack should be val
-        
+        - Limee tested on 1.21.11; so datapack should be
+        - I spot checked the version of map on eq projects, and there didn't appear to be any biome deviation; possible that it's different in actual world, I missed some deviations, or something else entirely like dimensions playing havoc??
     
   - data pack updates:
     - any changes giving ability to control attributes of zombie iron shovel drop
