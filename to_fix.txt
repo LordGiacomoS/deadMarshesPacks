@@ -1,0 +1,34 @@
+to fix:
+  - my own idiocy (probably):
+    - shovel recipes
+    
+    - dirt slab recipe
+    - log fence/wall/stair/slab crafting recipes
+    - log fence/wall/stair/slab conversion to planks
+    
+  - version changes (probably):
+    - music in biomes:
+      - pre-1.21.4, 1.21.4 to 1.21.10, and 1.21.11+ all act differently
+      - currently using 1.21.4 implementation
+    - spawnable mobs control:
+        - MC v26.3 handles changing biomes differently than previously
+    - pickaxe mining issues
+        - certain tags changed (e.g. more blocks added, chain tag refactored)
+        
+  - eq pack issues:
+    - top slab of 'dirt' slab is still petrified oak
+  
+
+double-check:
+  - examine game logs when loading packs for other issues
+  - figure out way to keep .DS_Store files from being tossed in
+
+  - map concerns:
+    - chests on marshes map for any items that might need components altered
+    - spawn control issues Limee observed
+        - Limee tested on 1.21.11; so datapack should be val
+        
+    
+  - data pack updates:
+    - any changes giving ability to control attributes of zombie iron shovel drop
+    - how much performance impact would there be by implementing ray-casts be in modern versions?
