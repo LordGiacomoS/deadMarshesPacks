@@ -3,9 +3,7 @@
   "category": "building",
   "group": "planks",
   "ingredients": [
-    {
-      "tag": "minecraft:nether_brick_wall"
-    }
+    "minecraft:nether_brick_wall"
   ],
   "result": {
     "id": "minecraft:oak_planks",
