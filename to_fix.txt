@@ -12,9 +12,9 @@ to fix:
     - [X] pickaxe mining issues
         - certain tags changed (e.g. more blocks added, 1.21.9 deprecated names ['minecraft:iron_bars', 'minecraft:chain', 'minecraft:lantern', 'minecraft:soul_lantern', 'minecraft:lightning_rod'])
     
-    - [ ] add copper shovel to shovel recipes for 1.21.9+
+    - [X] add copper shovel to shovel recipes for 1.21.9+
     
-    - [ ] smithing table changes in 1.21.5
+    - [X] smithing table changes in 1.21.5
         - netherite shovel
     
     - [X] recipe spec changes in 1.21.2
