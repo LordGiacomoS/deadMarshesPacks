@@ -32,18 +32,19 @@ to fix:
 
 
 double-check:
-
   - examine game logs when loading packs for other issues
-  - figure out way to keep .DS_Store files from being tossed in
+  - figure out way to keep .DS_Store files from being tossed in to larger release when whoever's mac touches everything
 
   - map concerns:
     - chests on marshes map for any items that might need components altered
     - spawn control issues Limee observed
-        - Limee tested on 1.21.11; so datapack should be
+        - Limee tested on 1.21.11; so datapack should be functioning same way
         - I spot checked the version of map on eq projects, and there didn't appear to be any biome deviation; possible that it's different in actual world, I missed some deviations, or something else entirely like dimensions playing havoc??
-    
+        - I tested in pure vanilla 1.21.11 and spawn rules still worked, so not modlist issue
+        - without more information about Limee's test methodology or access to the map, I don't think I can reproduce the problem, much less fix it
+  
   - data pack updates:
-    - shovel merge repair doesn't preserve components
+    - shovel merge repair doesn't preserve components; possible to fix?
   
     - any changes giving ability to control attributes of zombie iron shovel drop
-    - how much performance impact would there be by implementing ray-casts be in modern versions?
+    - how much performance impact would there be by implementing ray-casts be in modern versions? (or does it make my pc sound like I just warped to bree?)
