@@ -28,6 +28,7 @@ to fix:
   - eq pack issues:
     - [X] top slab of 'dirt' slab is still petrified oak
     - [ ] bring up to date with current on github
+      - [ ] need to discuss what, if any changes in past 2 years should actually be applied, beyond bug patches
 
 
 
