@@ -1,0 +1,13 @@
+to-do:
+  [X] update recipe granting advancements (changed in 26.3-snap-4; dp ver 111.0)
+  [X] update swamp.json to be compatible with 26.3 biome.json changes (also in 26.3-snap-4; dp ver 111.0)
+    - some changes to spawner stuff as well in 26.3-snap-4
+
+  look into viability of view-tracking for empty hand fix
+
+  
+  1.21.11 added minecraft:gameplay/surface_slime_spawn_chance which could be responsible for limee's issues 
+  
+  
+
+  add patches for compatibility thru 1.20.5?

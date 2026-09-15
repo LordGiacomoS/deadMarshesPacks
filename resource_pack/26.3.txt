@@ -1,3 +1,0 @@
-to-do:
-  update recipe granting advancements (determine which version changed this)
-  update swamp.json to be compatible with 26.3 biome.json changes

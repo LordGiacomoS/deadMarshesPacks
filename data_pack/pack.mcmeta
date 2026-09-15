@@ -7,7 +7,7 @@
       "min_inclusive": 94,
       "max_inclusive": 121
     },
-    "description": "Datapack for EpicQuestz's Dead Marshes map (v1.0.3)"
+    "description": "Datapack for EpicQuestz's Dead Marshes map (v1.0.4)"
   },
   "filter": {
     "block": [
@@ -17,7 +17,16 @@
       },
       {
       	"namespace": "minecraft",
-        "path": "advancement/recipe/(?:decorations)|(?:building_blocks)/nether_brick_.*"
+        "path": "advancement/recipe(?:s)?/(?:decorations)|(?:building_blocks)/nether_brick_.*"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "v111",
+        "min_format": 111,
+        "max_format": 999
       }
     ]
   }
