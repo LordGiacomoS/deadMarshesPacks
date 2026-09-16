@@ -10,6 +10,7 @@
     "minecraft:gameplay/increased_fire_burnout": true,
     "minecraft:gameplay/natural_mob_spawns": {
       "argument": {
+        "spawn_costs": {},
         "spawns_by_category": {
           "ambient": [
             {
@@ -75,7 +76,7 @@
     "minecraft:visual/water_fog_end_distance": {
       "argument": 0.85,
       "modifier": "multiply"
-    },
+    }
   },
   "carvers": [
     "minecraft:cave",
