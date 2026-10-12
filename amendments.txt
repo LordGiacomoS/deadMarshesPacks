@@ -1,0 +1,19 @@
+
+- mining 'dirt' slab with empty hand or inappropriate tool/item takes much longer than it should
+  - solve via raycasting?
+  - solve inappropriate item/tool with modifying output of every item?
+  
+  - 26.3 wool slabs/stairs are closer to desired breakability (wool is 0.8 vs petrified stone at 2.0; goal of 0.5)
+    - don't wanna replace these ideally, but might work better tbh
+
+- language that fixes names for 'dirt' slab & 'oak log' stairs/slabs/walls/fences is custom en_eq rather than an existing lang file
+
+- can't fix the sounds the 'dirt' slab makes without messing with the sounds for all stone stuff
+  - technically could solve this by combination of ray-casting/block adjacency and overriding sounds via functions (very messy)
+  - also solvable by finding another slab-able block with unique sounds that can be replaced
+
+- shovels merged by repair or dropped by zombie don't have custom tag to help mine 'dirt' slab at proper speed
+  - could disable repair recipes entirely (can't do fine-grained control)
+  - could fix attributes via command whenever item is picked up by player??? (further research required)
+  - could scrap adding the attribute to shovels altogether and just use raycast to apply flat boost to speed whenever player is looking at 'dirt' slabs
+
