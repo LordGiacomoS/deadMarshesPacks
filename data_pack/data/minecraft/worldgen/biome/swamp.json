@@ -19,37 +19,7 @@
               "weight": 10
             }
           ],
-          "creature": [
-            {
-              "type": "minecraft:sheep",
-              "count": 4,
-              "weight": 12
-            },
-            {
-              "type": "minecraft:pig",
-              "count": 4,
-              "weight": 10
-            },
-            {
-              "type": "minecraft:chicken",
-              "count": 4,
-              "weight": 10
-            },
-            {
-              "type": "minecraft:cow",
-              "count": 4,
-              "weight": 8
-            },
-            {
-              "type": "minecraft:frog",
-              "count": {
-                "type": "minecraft:uniform",
-                "max_inclusive": 5,
-                "min_inclusive": 2
-              },
-              "weight": 10
-            }
-          ],
+          "creature": [],
           "misc": [],
           "monster": [
             { "type": "minecraft:spider", "weight": 100, "count": 4 },
