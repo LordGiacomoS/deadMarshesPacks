@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "dagorlad:scavenge_oak_fence"
+        "recipes": "dagorlad:scavenge_oak_fence"
       }
     }
   },
